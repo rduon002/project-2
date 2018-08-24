@@ -12,7 +12,7 @@ var PORT = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.static("public"));
-
+// things changed 
 // Handlebars
 app.engine(
   "handlebars",
@@ -46,3 +46,5 @@ db.sequelize.sync(syncOptions).then(function() {
 });
 
 module.exports = app;
+
+
