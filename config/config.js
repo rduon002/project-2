@@ -1,11 +1,11 @@
+module.exports = 
 {
   "development": {
-    "username": "root",
-    "password": "password",
+    "username": process.env.DEV_DB_USER,
+    "password": process.env.DEV_DB_PASSWORD,
     "database": "cheatmeals_db",
     "host": "localhost",
-    "dialect": "mysql",
-    "port": "3306"
+    "dialect": "mysql"
   },
   "test": {
     "username": "root",
