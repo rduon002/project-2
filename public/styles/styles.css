@@ -1,3 +1,179 @@
-.list-group-item {
-  line-height: 2.5;
+h2,.p1 {
+  text-align: center;
+  color:orange;
+  text-decoration:orange;
+  font-weight:bolder;
+  text-shadow: 1px 1px 2px black;
 }
+.p1 {
+  text-align: center;
+  color:white;
+  font-weight:bolder;
+  text-shadow: 1px 1px 2px black;
+ 
+}
+
+
+.image-responsive {
+margin-bottom: 50px;
+  display: block;
+  width: 88%;
+  height: 100%;
+  margin-left:50px;
+
+
+}
+.image-responsive2 {
+  margin-bottom: 50px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-right:50px;
+
+}
+
+.search {
+  text-align: center;
+}
+
+footer {
+  background-color:orange;
+  text-shadow: mintcream;
+  margin: 0;
+  height: 50px;
+}
+
+#pfooter {
+  font-size: 15px;
+  color:white;
+  text-align: center;
+}
+
+#pfooter:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #f1da9a;
+}
+.jumbotron{
+  background: url('./images/gym-mat.jpg');
+  height: 100%;
+  width: 100%;
+  
+
+}
+
+.card1{
+  /* margin-right: 40px; */
+  margin-left: 100px;
+}
+.card-deck{
+  display: flex;
+}
+.card2{
+    margin-left: 100px;
+    margin-right: 200px;
+}
+.card3{
+  margin-left: 40px;
+  margin-right: 100px;
+}
+
+.search-image{
+    width:200px;
+    height:200px;
+    box-shadow: 10px 5px 5px black;
+    
+
+}
+.card-body{
+    background-color:white;
+}
+
+.body2{
+  background-color:white;
+}
+.card-title1{
+  text-align: left;
+  color:red;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.card-title{
+  text-align: center;
+  color:red;
+  font-weight: bolder;
+  font-size: 20px;
+}
+p{
+  color:black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+.btn {
+  background: red;
+  color:white;
+
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: red;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color:red;}
