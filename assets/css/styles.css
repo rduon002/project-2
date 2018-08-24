@@ -57,7 +57,7 @@ body {
   background-color: #f1da9a;
 }
 .jumbotron{
-  background: url('./images/gym-mat.jpg');
+  background: url('../images/gym-mat.jpg');
   height: 100%;
   width: 100%;
   
